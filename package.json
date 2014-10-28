@@ -1,7 +1,11 @@
 {
   "name": "awseb",
-  "version": "0.0.0",
-  "private": true,
+  "version": "0.0.1",
+  "description":"Sample Express app for CI/CD testing",
+  "private": false,
+  "repository": {
+    "url": "https://github.com/kosmjon/awseb/"
+  },
   "scripts": {
     "start": "node ./bin/www"
   },
@@ -16,6 +20,11 @@
     "winston": "^0.8.1"
   },
   "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-simple-mocha": "^0.4.0",
     "mocha": "^2.0.1",
     "should": "^4.1.0",
     "supertest": "^0.14.0"
