@@ -1,5 +1,6 @@
 [global]
 ApplicationName=awseb
+ApplicationVersionName=git-76a3cf001ba10fe55e7bf8dce38e268ae1b2ad2b-1414198194794
 DevToolsEndpoint=git.elasticbeanstalk.us-east-1.amazonaws.com
 EnvironmentName=awseb-env
 EnvironmentTier=WebServer::Standard::1.0

@@ -1,0 +1,20 @@
+/**
+ * Created by JKosmoski on 10/28/2014.
+ */
+'use strict';
+
+var request = require('supertest');
+var should = require('should');
+var app = require('../main');
+
+describe('index', function () {
+    it('should return 200 URL /', function (done) {
+        request(app)
+            .get('/')
+            .expect(200)
+            .end(function (err, res) {
+                should.not.exist(err);
+                done();
+            });
+    });
+});

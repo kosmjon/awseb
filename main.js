@@ -4,15 +4,6 @@ var favicon = require('serve-favicon');
 var requestLogger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var winston = require('winston');
-var logger = new (winston.Logger)({
-    transports: [
-        new (winston.transports.Console)(),
-        new (winston.transports.File)({ filename: 'app.log' })
-    ]
-});
-
-logger.info('Hello')
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
