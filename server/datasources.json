@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "noteDB": {
+    "name": "noteDB",
+    "connector": "mongodb",
+    "host": "localhost",
+    "port": 27017,
+    "database": "test",
+    "username": "",
+    "password": ""
+  }
+}

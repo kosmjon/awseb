@@ -1,0 +1,17 @@
+{
+  "name": "note",
+  "plural": "notes",
+  "base": "PersistedModel",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
