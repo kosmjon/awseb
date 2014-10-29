@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="adc56315-9419-46be-927c-ee2a5907f2ac" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dockerfile" afterPath="$PROJECT_DIR$/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.js" afterPath="$PROJECT_DIR$/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/www" afterPath="$PROJECT_DIR$/bin/www" />
     </list>
     <ignored path="awseb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,10 +37,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="www" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.elasticbeanstalk/config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.17028381" vertical-offset="0" max-vertical-offset="599">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="optionsettings.awseb-env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.elasticbeanstalk/optionsettings.awseb-env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="816">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="www" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/www">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14190318" vertical-offset="0" max-vertical-offset="599">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
               <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
               <folding />
             </state>
@@ -257,7 +284,13 @@
       <option name="project" value="LOCAL" />
       <updated>1414529474952</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Default port 3010 -&gt; 3000">
+      <created>1414546202849</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1414546202849</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -326,7 +359,8 @@
     <MESSAGE value="Wrap use strict in a IIFE" />
     <MESSAGE value="Allow npm test to be used and call out xunit to create test report for Hudson" />
     <MESSAGE value="Try a different test reporter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Try a different test reporter" />
+    <MESSAGE value="Default port 3010 -&gt; 3000" />
+    <option name="LAST_COMMIT_MESSAGE" value="Default port 3010 -&gt; 3000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -367,14 +401,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="929">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.elasticbeanstalk/config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="929">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -459,22 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.6744574" vertical-offset="0" max-vertical-offset="1105">
@@ -495,8 +505,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/www">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14190318" vertical-offset="0" max-vertical-offset="599">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
           <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.elasticbeanstalk/optionsettings.awseb-env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.elasticbeanstalk/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="929">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17028381" vertical-offset="0" max-vertical-offset="599">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>

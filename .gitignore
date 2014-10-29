@@ -1,1 +1,1 @@
-node_modules/.gitignore.elasticbeanstalk/*.logtest-reports.xml
+node_modules/.gitignore.elasticbeanstalk/*.logtest-reports.xmlbuild/
